@@ -13,10 +13,13 @@ function primeFilter(numbers) {
   for (var i = 1; i < lengthArray; i++) {
 
     if (i === 1) {
-      console.log(i);
+      console.log(i + 'is not prime');
     //add if statements here  
-    }
-  
+    } else if (i === 2 || i === 3 || i === 5 || i === 7) {
+      console.log(i + ' is prime');
+    }// else if (i can be divided by 2, 3, 5, or 7) {
+      // console.log(i + 'is not prime');
+    //}
   }
   
 }

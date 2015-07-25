@@ -15,10 +15,10 @@ for (i = rangeStart; i <= rangeEnd; i++) {
 }
 
 console.log('fizzBuzz:' + '[ ' + fizzBuzz + ' ];');
-console.log('Test:');
-console.log(fizzBuzz[0] + " = 1 ?");
-console.log(fizzBuzz[93] + " = 94 ?");
-console.log(fizzBuzz[97] + "= 98 ?");
-console.log(fizzBuzz[2] + " = Fizz ?");
-console.log(fizzBuzz[9] + " = Buzz ?");
-console.log(fizzBuzz[14]+  "= !*FizzBuzz*! ?");
+console.log('Test Cases:');
+console.log(fizzBuzz[0] + ' = 1 ?');
+console.log(fizzBuzz[93] + ' = 94 ?');
+console.log(fizzBuzz[97] + '= 98 ?');
+console.log(fizzBuzz[2] + ' = Fizz ?');
+console.log(fizzBuzz[9] + ' = Buzz ?');
+console.log(fizzBuzz[14]+  '= !*FizzBuzz*! ');

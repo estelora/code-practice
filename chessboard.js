@@ -1,5 +1,5 @@
-function chessBoard(n) {
-  for (i = 1; i <= n; i++) {
+function chessBoardLine(lines) {
+  for (i = 1; i <= lines; i++) {
     if(i % 2 === 0) {
       console.log(' # # # #');
     } else {
@@ -8,4 +8,5 @@ function chessBoard(n) {
   }
 }
 
-chessBoard(8);
+chessBoardLine(8);
+

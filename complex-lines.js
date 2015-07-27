@@ -62,3 +62,27 @@ for (var line = 1; line <= 5; line ++) {
 //  4   
 // 5
 
+for (var i = 1; i <= 6;  i++) {
+  for (var j = 1; j <= i; j ++) {
+    console.log(i);
+  }
+}
+
+// Output:
+// 1
+// 22
+// 333
+// 4444
+// 55555
+// 666666
+
+
+for (var i = 1; i <= 6;  i++) {
+  for (var j = 4; j >= 0; j--) {
+    console.log('.');
+    //console.log(k + ' = k');
+  }
+  for (var k = 1; k <= i; k ++) {
+    console.log(i);
+  }
+}

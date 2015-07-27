@@ -77,12 +77,3 @@ for (var i = 1; i <= 6;  i++) {
 // 666666
 
 
-for (var i = 1; i <= 6;  i++) {
-  for (var j = 4; j >= 0; j--) {
-    console.log('.');
-    //console.log(k + ' = k');
-  }
-  for (var k = 1; k <= i; k ++) {
-    console.log(i);
-  }
-}

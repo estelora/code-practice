@@ -17,7 +17,7 @@ function LongestWord(sen) {
     words = sen.split(" ")
       
     for (var i = 0; i < words.length; i++) {
-    if (best.length < words[i].length) {
+    if (longest.length < words[i].length) {
         longest= words[i];
         } 
     }

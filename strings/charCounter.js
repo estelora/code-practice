@@ -1,4 +1,4 @@
-function beanCounter(string, char) {
+function charCounter(string, char) {
   var count = 0;
   
   for (var i = 0; i < string.length; i++){
@@ -9,6 +9,6 @@ function beanCounter(string, char) {
 }
 
 
-beanCounter('lydia', 'l');
+charCounter('lydia', 'l');
 
-beanCounter('me', 'i');
+charCounter('me', 'i');

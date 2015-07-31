@@ -27,10 +27,11 @@ function primeFilter(numbers) {
   console.log(primes);
 }
 
-//Solution with counting by 2, starting at 3.
 
 var primeSieve = primeFilter(allNumbers);
 
+
+//Solution with counting by 2, starting at 3.
 
 var allNumbers = [];
 var rangeEnd = 100;
@@ -56,4 +57,36 @@ function primeFilter(numbers) {
 }
 
 var primeSieve = primeFilter(allNumbers);
+
+
+//better solution, better structure
+var numbers = [];
+function allNumbers(end) {
+ 
+  for var(i = 1; i <= end; i++){
+    numbers.push(i);
+  }
+  console.log(numbers);
+}
+
+allNumbers(100);
+// var lengthArray = allNumbers.length;
+// console.log(lengthArray);
+
+
+function primeFilter(numbers, length) {
+  primes = [];
+  for (var i = 3; i < length; i+= 2) {
+
+    if (i === 3 || i === 5 || i === 7 || i === 11) {
+      primes.push(i);
+    } else if ((i % 11 !== 0) && (i % 7 !== 0) && (i % 5 !== 0) && (i % 3 !== 0) && (i % 2 !== 0)) {
+      primes.push(i);
+    }
+
+  }
+  console.log(primes);
+}
+
+var primeSieve = primeFilter(allNumbers, lengthArray);
 

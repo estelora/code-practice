@@ -14,11 +14,3 @@ firstFactorial(7);
 
 firstFactorial(3);    
 
-function valueChecker(x) {
-  if(x<10) {
-    console.log('i');
-  }
-  if (x>10) {
-    console.log('bho');
-  }
-}

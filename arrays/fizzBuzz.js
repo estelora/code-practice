@@ -49,4 +49,4 @@ console.log(fizzBuzz[93] + ' = 94 ?');
 console.log(fizzBuzz[97] + '= 98 ?');
 console.log(fizzBuzz[2] + ' = Fizz ?');
 console.log(fizzBuzz[9] + ' = Buzz ?');
-console.log(fizzBuzz[14]+  '= !*FizzBuzz*! ')
+console.log(fizzBuzz[14]+  '= !*FizzBuzz*! 

@@ -43,7 +43,7 @@ function fizzBuzz(rangeStart, rangeEnd) {
 }
 
 fizzBuzz(1, 100);
-
+console.log(fizzBuzz[rangeEnd] + ' undefined ?');
 console.log(fizzBuzz[0] + ' = 1 ?');
 console.log(fizzBuzz[93] + ' = 94 ?');
 console.log(fizzBuzz[97] + '= 98 ?');

@@ -1,3 +1,5 @@
+//counts the number of occurences of a given character in a string
+
 function charCounter(string, char) {
   var count = 0;
   

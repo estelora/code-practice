@@ -18,7 +18,7 @@ function letterChanges(str) {
                            
 function replaceLetter(match) {
   if (match === "z"){
-    return "a"
+    return "a";
   }
   var ascii = match.charCodeAt(0);
   //returns the next letter

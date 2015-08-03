@@ -10,8 +10,11 @@ var string = "++dd===c";
 
 
 var simpleSymbols = function (str) {
+    //needs at least 3 chars to check the letters
+    if(str.length <= 2) {
+        return false;
     //str must start with = or +
-    if (str[0] != "+" && s[0] != "=") {
+    } else if (str[0] != "+" && str[0] != "=") {
         return false;
     //st must end with = or +
     } else if (str[str.length - 1] != "+" && str[str.length - 1] != "=") {
@@ -32,3 +35,4 @@ var simpleSymbols = function (str) {
     return true;
 }
 
+simpleSymbols('=+');

@@ -10,6 +10,7 @@ function charCounter(string, char) {
   return count;
 }
 
+<<<<<<< HEAD
 charCounter('my Company', 'c'); //returns 0 because of case sensitivity
 
 charCounter('lydia', 'l');
@@ -33,3 +34,9 @@ function charCounter(string, char) {
 }
 
 charCounter('my Company', 'c');
+=======
+
+charCounter('lydia', 'l');
+
+charCounter('me', 'i');
+>>>>>>> 82747912cc008ae5cd565a114c5b5c4565e076be

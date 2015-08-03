@@ -1,3 +1,5 @@
+//better version, within a function
+
 
 function loopHash(lines) {
 

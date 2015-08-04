@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 //Create a function that returns the longest word from a string
 
 function longestWord(sen) {
@@ -39,7 +39,7 @@ longestWord('');
 
 
 longestWord('my best friend');
-=======
+
 function LongestWord(sen) {
   longest = null;
   words = sen.split(' ');
@@ -69,5 +69,5 @@ function LongestWord(sen) {
 }
 
 LongestWord("my best friend");
->>>>>>> 82747912cc008ae5cd565a114c5b5c4565e076be
+
 

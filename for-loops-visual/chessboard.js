@@ -15,20 +15,24 @@ var size = 8;
 
 var board = '';
 //first loop is number of lines
-for (var y = 0; y < size; y++) {
+function chessBoardLine(lines) {
 
-  //inner loop is width (size)
-  for (var x = 0; x < size; x++) {
-    
-    //if even space, print ' '
-    if ((x + y) % 2 == 0)
-      board += ' ';
-     //else, print '#'
-    else
-      board += '#';
+  for (var y = 0; y < size; y++) {
+
+    //inner loop is width (size)
+    for (var x = 0; x < size; x++) {
+      
+      //if even space, print ' '
+      if ((x + y) % 2 == 0)
+        board += ' ';
+       //else, print '#'
+      else
+        board += '#';
+    }
+    //after finishing a line, determined by x, start a new line
+    board += '\n';
   }
-  //after finishing a line, determined by x, start a new line
-  board += '\n';
+  
 }
 
 console.log(board);

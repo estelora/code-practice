@@ -8,9 +8,9 @@ function firstFactorial(integer) {
 }
    
 
-firstFactorial(9);  
+// firstFactorial(9);  
 
-firstFactorial(7);  
+// firstFactorial(7);  
 
-firstFactorial(3);    
+// firstFactorial(3);    
 

@@ -8,31 +8,27 @@ for (i = 1; i <= lines; i++) {
   }
 }
 
-
-chessBoardLine(8);
-
-var size = 8;
-
-var board = '';
 //first loop is number of lines
 function chessBoardLine(lines) {
+  var board = '';
 
-  for (var y = 0; y < size; y++) {
+  for (var y = 0; y < lines; y++) {
 
     //inner loop is width (size)
-    for (var x = 0; x < size; x++) {
+    for (var x = 0; x < lines; x++) {
       
       //if even space, print ' '
       if ((x + y) % 2 == 0)
-        board += ' ';
+        board +=' ';
        //else, print '#'
       else
-        board += '#';
+        board +='#';
     }
     //after finishing a line, determined by x, start a new line
     board += '\n';
   }
-  
+  //return board; is not as neat in the console
+  console.log(board);
 }
 
-console.log(board);
+chessBoardLine(8);

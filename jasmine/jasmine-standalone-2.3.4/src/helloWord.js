@@ -1,3 +1,3 @@
-var helloWord = function() {
+var helloWorld = function () {
   return 'Hello World';
-}; 
+};

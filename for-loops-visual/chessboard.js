@@ -27,8 +27,7 @@ function chessBoardLine(lines) {
     //after finishing a line, determined by x, start a new line
     board += '\n';
   }
-  //return board; is not as neat in the console
-  console.log(board);
+  return board;
 }
 
 chessBoardLine(8);

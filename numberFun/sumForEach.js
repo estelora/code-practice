@@ -1,7 +1,15 @@
-var numbers = [1, 2, 3, 4, 5, 6], sum = 0;
+function sumForEach(numbers) {
 
-numbers.forEach(function(number){
- sum += number;
-});
+  var array = [];
+  for (var i = 1; i <= numbers; i++) {
+   array.push(i);
+  }
 
-console.log(sum);
+  sum = null;
+
+  for (var i = 0; i < array.length; i++) {
+   sum += array[i];
+  }
+
+  return sum;
+}

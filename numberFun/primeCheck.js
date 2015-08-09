@@ -3,10 +3,12 @@
 // if false, return 'false'
 
 function primeCheck(num) { 
-  if ( num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 || num % 11 === 0){
+  if (num === 1) {
+    return false;
+  }else if ( num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 || num % 11 === 0){
       return false;
-    } else {
+  } else {
       return num;
-    }     
+  }     
 }
   

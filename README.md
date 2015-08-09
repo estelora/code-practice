@@ -1,2 +1,3 @@
 # code-practice
-### Coding practice problems and eventually, tests in Jasmine for them
+- Coding practice problems 
+- Unit Testing with Jasmine

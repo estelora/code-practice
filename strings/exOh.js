@@ -1,3 +1,5 @@
+//checks to see if the number of 'x' and 'o' characters in a string are the same
+
 function exOh(string) {
   var splitString = string.split('');
   var countX = 0;

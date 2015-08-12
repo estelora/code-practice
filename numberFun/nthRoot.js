@@ -1,0 +1,3 @@
+function nthRoot(number, root) {
+  
+};

@@ -10,8 +10,8 @@ function isPalindrome(string) {
   }
 }
 
-isPalindrome('hello');
-isPalindrome('racecar');
-isPalindrome('avid diva');
-isPalindrome('is this a palindrome?');
+// isPalindrome('hello');
+// isPalindrome('racecar');
+// isPalindrome('avid diva');
+// isPalindrome('is this a palindrome?');
 

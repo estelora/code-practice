@@ -9,9 +9,3 @@ function isPalindrome(string) {
     return false;
   }
 }
-
-// isPalindrome('hello');
-// isPalindrome('racecar');
-// isPalindrome('avid diva');
-// isPalindrome('is this a palindrome?');
-

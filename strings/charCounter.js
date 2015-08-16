@@ -14,8 +14,3 @@ function charCounter(string, char) {
   return count;
 }
 
-charCounter('my Company', 'c');
-
-charCounter('lydia', 'l');
-
-charCounter('me', 'i');

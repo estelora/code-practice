@@ -18,11 +18,11 @@ function fizzBuzz(rangeStart, rangeEnd) {
   return fizzBuzz;
 }
 
-fizzBuzz(1, 100);
-console.log(fizzBuzz[rangeEnd] + ' undefined ?');
-console.log(fizzBuzz[0] + ' = 1 ?');
-console.log(fizzBuzz[93] + ' = 94 ?');
-console.log(fizzBuzz[97] + '= 98 ?');
-console.log(fizzBuzz[2] + ' = Fizz ?');
-console.log(fizzBuzz[9] + ' = Buzz ?');
-console.log(fizzBuzz[14]+  '= !*FizzBuzz*! 
+// fizzBuzz(1, 100);
+// console.log(fizzBuzz[rangeEnd] + ' undefined ?');
+// console.log(fizzBuzz[0] + ' = 1 ?');
+// console.log(fizzBuzz[93] + ' = 94 ?');
+// console.log(fizzBuzz[97] + '= 98 ?');
+// console.log(fizzBuzz[2] + ' = Fizz ?');
+// console.log(fizzBuzz[9] + ' = Buzz ?');
+// console.log(fizzBuzz[14]+  '= !*FizzBuzz*! 

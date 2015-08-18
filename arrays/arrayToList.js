@@ -14,8 +14,8 @@ function arrayToList(array) {
     return list;
 }
 
-console.log(arrayToList([10, 20]));
-console.log(arrayToList([10, 20, 30]));
+// console.log(arrayToList([10, 20]));
+// console.log(arrayToList([10, 20, 30]));
 
 function listToArray(list) {
   //empty array
@@ -29,8 +29,8 @@ function listToArray(list) {
   return array;
 }
 
-console.log(listToArray(arrayToList([10, 20, 30])));
-console.log(listToArray(arrayToList([10, 20])));
+// console.log(listToArray(arrayToList([10, 20, 30])));
+// console.log(listToArray(arrayToList([10, 20])));
 
 
 //prepends value to list
@@ -38,7 +38,7 @@ function prepend(value, list) {
   return {value: value, rest: list};
 }
 
-console.log(prepend(10, prepend(20, null)));
+// console.log(prepend(10, prepend(20, null)));
 
 //returns element at its given position in the list
 function nth(list, n) {
@@ -56,4 +56,4 @@ function nth(list, n) {
     return nth(list.rest, n - 1);
   }
 }
-console.log(nth(arrayToList([10, 20, 30]), 1));
+// console.log(nth(arrayToList([10, 20, 30]), 1));

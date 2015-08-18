@@ -28,7 +28,7 @@ function primeFilter(numbers) {
 }
 
 
-var primeSieve = primeFilter(allNumbers);
+// var primeSieve = primeFilter(allNumbers);
 
 
 //Solution with counting by 2, starting at 3.
@@ -56,6 +56,6 @@ function primeFilter(numbers) {
   console.log(primes);
 }
 
-var primeSieve = primeFilter(allNumbers);
+// var primeSieve = primeFilter(allNumbers);
 
 

@@ -30,4 +30,4 @@ function chessBoardLine(lines) {
   return board;
 }
 
-chessBoardLine(8);
+// chessBoardLine(8);

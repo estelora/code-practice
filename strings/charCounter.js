@@ -8,9 +8,11 @@ function charCounter(string, char) {
   var compChar = char.toLowerCase();
 
   for (var i = 0; i < string.length; i++){
-    if (compString.charAt(i) == compChar)
+    if (compString.charAt(i) === compChar)
       count += 1;
   }
-  return count;
+  //NaN error :(
+  return parseInt(count);
 }
 
+//charCounter('me', 'i');

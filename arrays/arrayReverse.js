@@ -15,6 +15,6 @@ function arrayReverse(array) {
   return reverseArray;
 }
 
-// var test = [1, 2, 3, 4, 5, 6];
-// arrayReverse(test);
+var test = [1, 2, 3, 4, 5, 6];
+arrayReverse(test);
 

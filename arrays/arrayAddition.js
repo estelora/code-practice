@@ -13,7 +13,7 @@ function arrayAddition(array) {
           return true;
         
         //else if sum > max, or the end has been reached without a match, return null
-        } else if (sum > max || i == array.length) {
+        } else if (sum > max || i === array.length) {
           return null;
         
         //otherwise keep searching and comparing
@@ -30,5 +30,3 @@ function arrayAddition(array) {
   return searchSum() || false;   
   
 }
-
-arrayAddition([1,2,3]);

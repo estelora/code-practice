@@ -7,7 +7,7 @@ describe('some feature', function() {
       // better matcher for a boolean
       expect(someFunction()).toBeTruthy();
       
-       matcher for expecting false 
+      /* matcher for expecting false 
        * expect(someFunction()).toBeFalsy(); 
        * .not.toBeTruthy negates, aka toBeFalsy
        * expect(someFunction()).not.toBeTruthy();
@@ -31,9 +31,3 @@ describe('some feature', function() {
   });
 });
 
-describe('User', function() {
-  it('should ensure the user is 21 years old or older', function() {
-    //checking an object's method
-    expect(User.getAge()).toBeGreaterThan(20); 
-  })
-});

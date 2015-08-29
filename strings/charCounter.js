@@ -11,8 +11,7 @@ function charCounter(string, char) {
     if (compString.charAt(i) === compChar)
       count += 1;
   }
-  //NaN error :(
-  return parseInt(count);
+
+  return count;
 }
 
-//charCounter('me', 'i');

@@ -1,3 +1,7 @@
 var someFunction = function () {
-  return false;
+  return true;
 }; 
+
+var anotherFunction = function() {
+  return ['myName', 'yourName', 'hisName', 'herName'];
+}

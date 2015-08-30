@@ -1,14 +1,19 @@
 function SecondGreatLow(array) {
   var sort;
   var input = array;
-  if (input.length == 2 ) {
-    sort = input.sort(function(a, b){return a-b});
+  //sort array, ascending
+  var sort = input.sort(function(a, b){return a-b});
+  //remove duplicates
+  //sort array, ascending
+  /* var unique =  = a.filter(function(item, pos) {
+    return a.indexOf(item) == pos;
+  })*/
+  if (sort.length == 2 ) {
     var result = sort[0] + ' ' + sort[1];
     return result;
 
 
-  } else if (input.length == 3) {
-    var sort = input.sort(function(a, b){return a-b});
+  } else if (sort.length == 3) {
     //remove lowest #
      sort.splice(0,1);
     var last = sort.length-1;
@@ -20,9 +25,7 @@ function SecondGreatLow(array) {
     
 
 
-  } else if (input.length > 3) {
-     //sort array, ascending
-    var sort = input.sort(function(a, b){return a-b});
+  } else if (sort.length > 3) {
     //remove lowest #
     console.log(sort);
     sort.splice(0,1);

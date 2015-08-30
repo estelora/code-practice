@@ -41,7 +41,4 @@ function secondGreatLow(array) {
   }
 
 } 
-//incorrect test cases :(
-//(78, 90, 100, 1, 2)
-//(100, 200, 3, 400, 5, 1) 
-//(90, 23)
+//need to create different options for repeated arrays and regular arrays :(

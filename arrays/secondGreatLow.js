@@ -4,7 +4,6 @@ function SecondGreatLow(array) {
   //sort array, ascending
   var sort = input.sort(function(a, b){return a-b});
   //remove duplicates
-  //sort array, ascending
   /* var unique =  = a.filter(function(item, pos) {
     return a.indexOf(item) == pos;
   })*/

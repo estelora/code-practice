@@ -10,8 +10,14 @@ function divisionStringified(num1, num2) {
  if (quotient.length < 3) {
   return quotient;
  } else {
-  //change decimal to comma with regex
-  return quotient;
+  var regexp = /^[0-9]+([,.][0-9]+)?$/g;
+  var result = regexp.test(quotient);
+    if(result == true) {
+      quotient = quotient.replace('.').replace(/[^0-9.]+/, ',');
+      return quotient;
+    } else {
+      return quotient;
+    }
  }
 }
 

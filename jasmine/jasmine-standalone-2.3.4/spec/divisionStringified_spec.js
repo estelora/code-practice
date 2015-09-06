@@ -5,4 +5,4 @@ describe('divisionStringified', function(){
   it ('should return a stringified quotient with no comma when the length is less than 3', function(){
     expect(divisionStringified(20, 8)).toEqual("2.5");
   });
-})
+});

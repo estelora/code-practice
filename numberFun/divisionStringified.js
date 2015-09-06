@@ -10,7 +10,7 @@ function divisionStringified(num1, num2) {
  if (quotient.length < 3) {
   return quotient;
  } else {
-  var regexp = /^[0-9]+([,.][0-9]+)?$/g;
+  var regex = /^[0-9]+([,.][0-9]+)?$/g;
   var result = regexp.test(quotient);
     if(result == true) {
       quotient = quotient.replace('.').replace(/[^0-9.]+/, ',');

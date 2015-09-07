@@ -1,3 +1,9 @@
+/* Function takes string as a parameter
+and returns the word with the greatest # of rpt letters.
+If there are no words with repeating letters return -1.
+Words are separated by spaces
+*/
+
 function letterCount1(string) {
   
   //initialize object for holding string
@@ -13,8 +19,6 @@ function letterCount1(string) {
     stringObject[string[i]] = stringObject[string[i]] || 0;
   }
 
-  console.log(stringObject);
-
   //counting function, call in for loop
   function countLetters(strings) {
     strings = strings.split('');
@@ -24,7 +28,6 @@ function letterCount1(string) {
       countObject[strings[i]] = countObject[strings[i]] || 0;
       countObject[strings[i]]++;
     }
-    console.log(countObject);
     return countObject;
   }
 
@@ -42,8 +45,4 @@ function letterCount1(string) {
     return finalWord;
   }
   return -1;
-  console.log(finalWord);
-  conosle.log(count);
 }
-
-letterCount1('lllydia');

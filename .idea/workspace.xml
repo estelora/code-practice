@@ -2,90 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fe497a9-6ca3-4083-bcd6-6f13b5a93385" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/calculator_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/binarySearch1_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/linearSearch_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/mergeSort_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/quickSort_spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/timeConvert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/sortSearch/binarySearch1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/sortSearch/linearSearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/sortSearch/mergeSort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/sortSearch/quickSort.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/calculator_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/example_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/numberFun/timeConvert.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/abstraction/forEachAbstraction.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/abstraction/forEachAbstraction.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/arrayAddition.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arrayAddition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/arrayReverse.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arrayReverse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/arraySum.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arraySum.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/arrayToList.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arrayToList.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/fizzBuzz.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/fizzBuzz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/primeSieve.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/primeSieve.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays/secondGreatLow.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/secondGreatLow.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/for-loops-visual/chessboard.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/for-loops-visual/chessboard.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/for-loops-visual/complex-lines.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/for-loops-visual/complex-lines.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/for-loops-visual/diamond-loops.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/for-loops-visual/diamond-loops.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/for-loops-visual/triangle-loop.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/for-loops-visual/triangle-loop.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/aBCheck_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/aBCheck_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arithGeo_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/arithGeo_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrayAddition_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrays/arrayAddition_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrayReverse_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrays/arrayReverse_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arraySum_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrays/arraySum_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/charCounter_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/charCounter_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/compareNums_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/compareNums_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/divisionStringified_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/divisionStringified_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/factorial_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/factorial_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/helloWorld_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/tutorial/helloWorld_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/letterCount1_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/letterCount1_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/nthRoot_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/nthRoot_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/palindrome_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/palindrome_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/secondGreatLow_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrays/secondGreatLow_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/simpleAdding_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/simpleAdding_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/stringReverse_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/stringReverse_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sumForEach_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/sumForEach_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/timeConvert_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/timeConvert_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/toHex_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/toHex_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/user_spec.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/tutorial/user_spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/helloWorld.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/tutorial/helloWorld.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/user.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/tutorial/user.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/arithGeo.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/arithGeo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/calculator.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/calculator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/compareNums.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/compareNums.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/countingMinutes.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/countingMinutes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/divisionStringified.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/divisionStringified.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/evenCheck.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/evenCheck.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/factorial.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/factorial.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/nthRoot.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/nthRoot.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/primeCheck.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/primeCheck.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/return-min.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/return-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/rollDice.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/rollDice.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/simpleAdding.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/simpleAdding.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/sumForEach.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/sumForEach.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/sumOfRange.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/sumOfRange.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/numberFun/toHex.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/numberFun/toHex.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/objects/arrayToList.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/objects/arrayToList.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/objects/deepComparison.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/objects/deepComparison.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/objects/journal.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/objects/journal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/objects/vectorConstructor.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/objects/vectorConstructor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regEx/basicTest.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/regEx/basicTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regEx/letterCapitalize.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/regEx/letterCapitalize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regEx/letterChanges.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/regEx/letterChanges.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regEx/regexPalindrome.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/regEx/regexPalindrome.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/aBCheck.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/aBCheck.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/alphabetize.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/alphabetize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/charCounter.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/charCounter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/exOh.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/exOh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/letterCount1.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/letterCount1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/longestWord.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/longestWord.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/palindrome.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/palindrome.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/simpleSymbols.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/simpleSymbols.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/stringReverse.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/stringReverse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/vowelCount.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/vowelCount.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/strings/wordCounter.js" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/strings/wordCounter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/SpecRunner.html" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/SpecRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/lib/jasmine-2.3.4/jasmine.css" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/lib/jasmine-2.3.4/jasmine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/singlyLinkedList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="code-practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,102 +27,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="timeConvert_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/timeConvert_spec.js">
+      <file leaf-file-name="singlyLinkedList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/singlyLinkedList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+              <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toHex_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/toHex_spec.js">
+      <file leaf-file-name="stack.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/stack.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding>
+                <element signature="e#410#455#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/queue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binarySearch1_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/binarySearch1_spec.js">
+      <file leaf-file-name="tree.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linearSearch_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/linearSearch_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mergeSort_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/mergeSort_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quickSort_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/quickSort_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charCounter_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/charCounter_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="letterCount1_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/letterCount1_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stringReverse_spec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/stringReverse_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13953489">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="palindrome_spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/palindrome_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="3.4042554">
+              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#Node#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -257,6 +122,11 @@
         <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/letterCount1_spec.js" />
         <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/palindrome_spec.js" />
         <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/stringReverse_spec.js" />
+        <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/data structures/singlyLinkedList.js" />
+        <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/data structures/doublyLinkedList.js" />
+        <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/data structures/stack.js" />
+        <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/data structures/queue.js" />
+        <option value="$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/data structures/tree.js" />
       </list>
     </option>
   </component>
@@ -400,111 +270,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine-standalone-2.3.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine-standalone-2.3.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortSearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine-standalone-2.3.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numberFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code-practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine-standalone-2.3.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arrays" />
+              <option name="myItemId" value="dataStructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -626,7 +396,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -663,40 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arrayReverse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arrayToList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/primeSieve.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/fizzBuzz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/arrays/arraySum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -899,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4040405">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/arrays/secondGreatLow_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11627907">
@@ -995,22 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/toHex_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/binarySearch1_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/linearSearch_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1051,14 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/letterCount1_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/palindrome_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1067,11 +771,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1578948">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/stringReverse_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.24822696">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/strings/letterCount1_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21276596">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/sortSearch/binarySearch1_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14184397">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/spec/numberFun/toHex_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31914893">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/singlyLinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="e#410#455#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jasmine/jasmine-standalone-2.3.4/src/dataStructures/tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.4042554">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#Node#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

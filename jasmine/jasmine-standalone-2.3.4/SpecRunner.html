@@ -2,73 +2,84 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Jasmine Spec Runner v2.3.4</title>
+    <title>Lydia's Code Practice</title>
 
-    <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.3.4/jasmine_favicon.png">
+    <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.3.4/custom_favicon.png">
     <link rel="stylesheet" href="lib/jasmine-2.3.4/jasmine.css">
 
     <script src="lib/jasmine-2.3.4/jasmine.js"></script>
     <script src="lib/jasmine-2.3.4/jasmine-html.js"></script>
     <script src="lib/jasmine-2.3.4/boot.js"></script>
 
-    <!--mostly numberFun spec files-->
-    <script src="spec/calculator_spec.js"></script>
-    <script src="spec/toHex_spec.js"></script>
-    <script src="spec/factorial_spec.js"></script>
-    <script src="spec/sumForEach_spec.js"></script>
-    <script src="spec/simpleAdding_spec.js"></script>
-    <script src="spec/nthRoot_spec.js"></script>
-    <script src="spec/compareNums_spec.js"></script>
-    <script src="spec/arithGeo_spec.js"></script> 
-    <script src="spec/divisionStringified_spec.js"></script> 
-    <script src="spec/timeConvert_spec.js"></script> 
+    <!--numberFun specs -->
+    <script src="spec/numberFun/calculator_spec.js"></script>
+    <script src="spec/numberFun/toHex_spec.js"></script>
+    <script src="spec/numberFun/factorial_spec.js"></script>
+    <script src="spec/numberFun/sumForEach_spec.js"></script>
+    <script src="spec/numberFun/simpleAdding_spec.js"></script>
+    <script src="spec/numberFun/nthRoot_spec.js"></script>
+    <script src="spec/numberFun/compareNums_spec.js"></script>
+    <script src="spec/numberFun/arithGeo_spec.js"></script>
+    <script src="spec/numberFun/divisionStringified_spec.js"></script>
+    <script src="spec/numberFun/timeConvert_spec.js"></script>
 
-
-    <!-- tutorial spec files -->
-    <script src="spec/helloWorld_spec.js"></script>
-    <script src="spec/user_spec.js"></script>
+    <!-- tutorial specs  -->
+    <script src="spec/tutorial/helloWorld_spec.js"></script>
+    <script src="spec/tutorial/user_spec.js"></script>
     
-    <!-- string spec files -->
-    <script src="spec/palindrome_spec.js"></script>
-    <script src="spec/aBCheck_spec.js"></script>
-    <script src="spec/charCounter_spec.js"></script>
-    <script src="spec/stringReverse_spec.js"></script>
-    <script src="spec/letterCount1_spec.js"></script>
+    <!-- string specs  -->
+    <script src="spec/strings/palindrome_spec.js"></script>
+    <script src="spec/strings/aBCheck_spec.js"></script>
+    <script src="spec/strings/charCounter_spec.js"></script>
+    <script src="spec/strings/stringReverse_spec.js"></script>
+    <script src="spec/strings/letterCount1_spec.js"></script>
 
-    <!-- array spec files -->
-    <script src="spec/arrayAddition_spec.js"></script>
-    <script src="spec/arrayReverse_spec.js"></script>
-    <script src="spec/arraySum_spec.js"></script>
-        <script src="spec/secondGreatLow_spec.js"></script>
+    <!-- array specs  -->
+    <script src="spec/arrays/arrayAddition_spec.js"></script>
+    <script src="spec/arrays/arrayReverse_spec.js"></script>
+    <script src="spec/arrays/arraySum_spec.js"></script>
+    <script src="spec/arrays/secondGreatLow_spec.js"></script>
 
-    <!-- tut src files -->
-    <script src="src/helloWorld.js"></script>
-    <script src="src/user.js"></script>
+    <!-- sortSearch specs  -->
+    <script src="spec/sortSearch/linearSearch_spec.js"></script>
+    <script src="spec/sortSearch/binarySearch1_spec.js"></script>
+    <script src="spec/sortSearch/quickSort_spec.js"></script>
+    <script src="spec/sortSearch/mergeSort_spec.js"></script>
 
-    <!-- numberFun src files-->
-    <script src="../../../numberFun/calculator.js"></script> 
-    <script src="../../../numberFun/toHex.js"></script> 
-    <script src="../../../numberFun/factorial.js"></script> 
-    <script src="../../../numberFun/sumForEach.js"></script> 
-    <script src="../../../numberFun/simpleAdding.js"></script> 
-    <script src="../../../numberFun/nthRoot.js"></script> 
-    <script src="../../../numberFun/compareNums.js"></script> 
-    <script src="../../../numberFun/arithGeo.js"></script> 
-    <script src="../../../numberFun/divisionStringified.js"></script> 
-    <script src="../../../numberFun/timeConvert.js"></script> 
+    <!-- tutorial src  -->
+    <script src="src/tutorial/helloWorld.js"></script>
+    <script src="src/tutorial/user.js"></script>
 
-    <!-- string src files -->
-    <script src="../../../strings/palindrome.js"></script> 
-    <script src="../../../strings/aBCheck.js"></script> 
-    <script src="../../../strings/charCounter.js"></script> 
-    <script src="../../../strings/stringReverse.js"></script>
-    <script src="../../../strings/letterCount1.js"></script>  
+    <!-- numberFun src -->
+    <script src="src/numberFun/calculator.js"></script>
+    <script src="src/numberFun/toHex.js"></script>
+    <script src="src/numberFun/factorial.js"></script>
+    <script src="src/numberFun/sumForEach.js"></script>
+    <script src="src/numberFun/simpleAdding.js"></script>
+    <script src="src/numberFun/nthRoot.js"></script>
+    <script src="src/numberFun/compareNums.js"></script>
+    <script src="src/numberFun/arithGeo.js"></script>
+    <script src="src/numberFun/divisionStringified.js"></script>
+    <script src="src/numberFun/timeConvert.js"></script>
 
-    <!-- array src files -->
-    <script src="../../../arrays/arrayAddition.js"></script> 
-    <script src="../../../arrays/arrayReverse.js"></script> 
-    <script src="../../../arrays/arraySum.js"></script> 
-<script src="../../../arrays/secondGreatLow.js"></script> 
+    <!-- string src  -->
+    <script src="src/strings/palindrome.js"></script>
+    <script src="src/strings/aBCheck.js"></script>
+    <script src="src/strings/charCounter.js"></script>
+    <script src="src/strings/stringReverse.js"></script>
+    <script src="src/strings/letterCount1.js"></script>
+
+    <!-- array src  -->
+    <script src="src/arrays/arrayAddition.js"></script>
+    <script src="src/arrays/arrayReverse.js"></script>
+    <script src="src/arrays/arraySum.js"></script>
+    <script src="src/arrays/secondGreatLow.js"></script>
+
+    <!-- sortSearch src -->
+    <script src="src/sortSearch/linearSearch.js"></script>
+    <script src="src/sortSearch/binarySearch1.js"></script>
+    <script src="src/sortSearch/quickSort.js"></script>
+    <script src="src/sortSearch/mergeSort.js"></script>
 
 
   </head>
